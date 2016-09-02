@@ -172,17 +172,17 @@ var sentenceSmasher = function(partTwo){
 // }
 // ```
 function subway(personName){
-  var obj = {
+  var customer = {
        orderPerson: personName,
        ingredients: []
      };
-   return function(ingredients){
-     obj.ingredients.push(ingredients);
-     return obj;
+   return function addIngredient(ingredients){
+     customer.ingredients.push(ingredients);
+     return customer;
    };
  }
 
-//var eater = subway("andrew",);
+
 
 
 
