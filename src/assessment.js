@@ -26,7 +26,7 @@
 // Remove entries from the array until only correct answers remain
 
 // Which function(s) access the playball variable and get homerun (Delete wrong answers, leave correct ones)
-var scopeArray1 = ["grandpa", "dad", "son", "uncle"];
+var scopeArray1 = ["grandpa","uncle","cousin"];
 
 // Which function(s) access the playball variable and get touchdown (Delete wrong answers, leave correct ones)
 var scopeArray2 = ["dad", "son"];
